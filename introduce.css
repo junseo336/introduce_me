@@ -1,0 +1,55 @@
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-img {
+    width: 150px;
+    height: 180px;
+}
+
+.travel-img {
+    width: 300px;
+    height: 300px;
+}
+
+.box .d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 20px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    color: #333333;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+}
